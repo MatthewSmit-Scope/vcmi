@@ -47,7 +47,7 @@
     <name>CampaignEditor</name>
     <message>
         <location filename="../campaigneditor/campaigneditor.ui" line="14"/>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="159"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="173"/>
         <source>VCMI Campaign Editor</source>
         <translation>Editor kampaní</translation>
     </message>
@@ -120,17 +120,17 @@
         <translation>Zobrazit celé pozadí</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="124"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="138"/>
         <source>Scenario editor</source>
         <translation>Editor scénáře</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="147"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="161"/>
         <source>Confirmation</source>
         <translation>Potvrzení</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="147"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="161"/>
         <source>Unsaved changes will be lost, are you sure?</source>
         <translation>Neuložené změny budou ztraceny, jste si jisti?</translation>
     </message>
@@ -143,69 +143,73 @@
         <translation type="obsolete">Máte méně scénářů než regionů. To je povoleno pouze tehdy, pokud chybějící scénáře jsou v posledních regionech, ne uprostřed nebo na začátku.</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="66"/>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="405"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="80"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="445"/>
         <source>Failed to open campaign</source>
         <translation>Kampaň se nepodařilo otevřít</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="173"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="187"/>
         <source>Validation failed</source>
         <translation>Kontrola selhala</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="173"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="187"/>
         <source>Campaign has no maps defined.</source>
         <translation>Kampaň neobsahuje žádné mapy.</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="251"/>
         <source>Open map</source>
-        <translation>Otevřít mapu</translation>
+        <translation type="vanished">Otevřít mapu</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="253"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="267"/>
+        <source>Open campaign</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="269"/>
         <source>All supported campaigns (*.vcmp *.h3c);;VCMI campaigns(*.vcmp);;HoMM3 campaigns(*.h3c)</source>
         <translation>Všechny typy kampaní (*.vcmp *.h3c);;Kampaně VCMI (*.vcmp);;Kampaně HoMM3 (*.h3c)</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="280"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="298"/>
         <source>Open Campaign set</source>
         <translation>Otevřít sadu kampaní</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="280"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="298"/>
         <source>Select Campaign set</source>
         <translation>Vybrat sadu kampaní</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="292"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="310"/>
         <source>Open Campaign</source>
         <translation>Otevřít kampaň</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="292"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="310"/>
         <source>Select Campaign</source>
         <translation>Vybrat kampaň</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="308"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="326"/>
         <source>Save campaign</source>
         <translation>Uložit kampaň</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="308"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="328"/>
         <source>VCMI campaigns (*.vcmp)</source>
         <translation>Kampaně VCMI (*.vcmp)</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="423"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="463"/>
         <source>Mods are required</source>
         <translation>Vyžadované modifikace</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="431"/>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="436"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="471"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="476"/>
         <source>Failed to open map</source>
         <translation>Otevření mapy se nezdařilo</translation>
     </message>
@@ -214,7 +218,7 @@
     <name>CampaignProperties</name>
     <message>
         <location filename="../campaigneditor/campaignproperties.ui" line="14"/>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="28"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="27"/>
         <source>Campaign Properties</source>
         <translation>Vlastnosti kampaně</translation>
     </message>
@@ -335,323 +339,51 @@
         <translation>Závěrečné video</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="57"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="56"/>
         <source>Custom</source>
         <translation>Vlastní</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="149"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="148"/>
         <source>Infix</source>
         <translation>Vsuvka</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="149"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="148"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="149"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="148"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="149"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="148"/>
         <source>Label Pos X</source>
         <translation>Pozice popisku X</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="149"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="148"/>
         <source>Label Pos Y</source>
         <translation>Pozice popisku Y</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="201"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="200"/>
         <source>Fewer Scenarios</source>
         <translation>Méně scénářů</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaignproperties.cpp" line="201"/>
+        <location filename="../campaigneditor/campaignproperties.cpp" line="200"/>
         <source>New Region setup supports fewer scenarios than before. Some will removed. Continue?</source>
         <translation>Nové nastavení oblasti podporuje méně scénářů než dříve. Některé budou odstraněny. Pokračovat?</translation>
-    </message>
-</context>
-<context>
-    <name>EntitiesSelector</name>
-    <message>
-        <location filename="../templateeditor/entitiesselector.ui" line="14"/>
-        <location filename="../templateeditor/entitiesselector.ui" line="20"/>
-        <source>Select Entities</source>
-        <translation>Vybrat entity</translation>
-    </message>
-</context>
-<context>
-    <name>EventSettings</name>
-    <message>
-        <location filename="../mapsettings/eventsettings.ui" line="14"/>
-        <source>Form</source>
-        <translation>Formulář</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/eventsettings.ui" line="34"/>
-        <source>Timed events</source>
-        <translation>Načasované události</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/eventsettings.ui" line="60"/>
-        <source>Add</source>
-        <translation>Přidat</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/eventsettings.ui" line="73"/>
-        <source>Remove</source>
-        <translation>Odebrat</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/eventsettings.cpp" line="150"/>
-        <source>New event</source>
-        <translation>Nová událost</translation>
-    </message>
-</context>
-<context>
-    <name>FactionSelector</name>
-    <message>
-        <location filename="../templateeditor/factionselector.ui" line="14"/>
-        <location filename="../templateeditor/factionselector.ui" line="20"/>
-        <source>Select Factions</source>
-        <translation>Vybrat frakce</translation>
-    </message>
-    <message>
-        <location filename="../templateeditor/factionselector.cpp" line="25"/>
-        <source>Faction Selector</source>
-        <translation>Výběr frakcí</translation>
-    </message>
-</context>
-<context>
-    <name>GeneralSettings</name>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="14"/>
-        <source>Form</source>
-        <translation>Formulář</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="32"/>
-        <source>Map name</source>
-        <translation>Název mapy</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="42"/>
-        <source>Map description</source>
-        <translation>Popis mapy</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="52"/>
-        <source>Author</source>
-        <translation>Autor</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="62"/>
-        <source>Author contact (e.g. email)</source>
-        <translation>Kontakt na autora (např. email)</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="72"/>
-        <source>Map Creation Time</source>
-        <translation>Čas vytvoření mapy</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="86"/>
-        <source>Map Version</source>
-        <translation>Verze mapy</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="120"/>
-        <source>Limit maximum heroes level</source>
-        <translation>Omezit max. úroveň hrdinů</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/generalsettings.ui" line="129"/>
-        <source>Difficulty</source>
-        <translation>Obtížnost</translation>
-    </message>
-</context>
-<context>
-    <name>GeneratorProgress</name>
-    <message>
-        <location filename="../generatorprogress.ui" line="29"/>
-        <source>Generating map</source>
-        <translation>Generování mapy</translation>
-    </message>
-</context>
-<context>
-    <name>HeroArtifactsWidget</name>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="29"/>
-        <source>Artifacts</source>
-        <translation>Artefakty</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="71"/>
-        <source>Add</source>
-        <translation>Přidat</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="87"/>
-        <source>Remove</source>
-        <translation>Odebrat</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="130"/>
-        <source>Slot</source>
-        <translation>Slot</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="135"/>
-        <source>Artifact</source>
-        <translation>Artefakt</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="158"/>
-        <source>Save</source>
-        <translation>Uložit</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroartifactswidget.ui" line="165"/>
-        <source>Cancel</source>
-        <translation>Zrušit</translation>
-    </message>
-</context>
-<context>
-    <name>HeroSkillsWidget</name>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="14"/>
-        <source>Hero skills</source>
-        <translation>Schopnosti hrdiny</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="28"/>
-        <location filename="../inspector/heroskillswidget.ui" line="38"/>
-        <location filename="../inspector/heroskillswidget.ui" line="48"/>
-        <location filename="../inspector/heroskillswidget.ui" line="58"/>
-        <source>TextLabel</source>
-        <translation>Textový štítek</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="97"/>
-        <source>Add</source>
-        <translation>Přidat</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="113"/>
-        <source>Remove</source>
-        <translation>Odebrat</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="153"/>
-        <source>Skill</source>
-        <translation>Dovednost</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="158"/>
-        <source>Level</source>
-        <translation>Úroveň</translation>
-    </message>
-    <message>
-        <location filename="../inspector/heroskillswidget.ui" line="166"/>
-        <source>Customize skills</source>
-        <translation>Přizpůsobit schopnosti</translation>
-    </message>
-</context>
-<context>
-    <name>HeroSpellWidget</name>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="29"/>
-        <source>Spells</source>
-        <translation>Kouzla</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="47"/>
-        <source>Customize spells</source>
-        <translation>Přizpůsobit kouzla</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="79"/>
-        <source>Level 1</source>
-        <translation>Úroveň 1</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="120"/>
-        <source>Level 2</source>
-        <translation>Úroveň 2</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="161"/>
-        <source>Level 3</source>
-        <translation>Úroveň 3</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="202"/>
-        <source>Level 4</source>
-        <translation>Úroveň 4</translation>
-    </message>
-    <message>
-        <location filename="../inspector/herospellwidget.ui" line="243"/>
-        <source>Level 5</source>
-        <translation>Úroveň 5</translation>
-    </message>
-</context>
-<context>
-    <name>LoseConditions</name>
-    <message>
-        <location filename="../mapsettings/loseconditions.ui" line="14"/>
-        <source>Form</source>
-        <translation>Formulář</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.ui" line="40"/>
-        <source>Defeat message</source>
-        <translation>Zpráva prohry</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.ui" line="59"/>
-        <source>7 days without town</source>
-        <translation>7 dní bez města</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.ui" line="72"/>
-        <source>Parameters</source>
-        <translation>Parametry</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.cpp" line="37"/>
-        <source>No special loss</source>
-        <translation>Bez speciální prohry</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.cpp" line="38"/>
-        <source>Lose castle</source>
-        <translation>Ztráta města</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.cpp" line="39"/>
-        <source>Lose hero</source>
-        <translation>Ztráta hrdiny</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.cpp" line="40"/>
-        <source>Time expired</source>
-        <translation>Vypršení času</translation>
-    </message>
-    <message>
-        <location filename="../mapsettings/loseconditions.cpp" line="41"/>
-        <source>Days without town</source>
-        <translation>Dny bez města</translation>
     </message>
 </context>
 <context>
     <name>EditorMainWindow</name>
     <message>
         <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.cpp" line="415"/>
+        <location filename="../mainwindow.cpp" line="536"/>
         <source>VCMI Map Editor</source>
         <translation>Editor map VCMI</translation>
     </message>
@@ -957,15 +689,15 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1254"/>
-        <location filename="../mainwindow.cpp" line="1413"/>
+        <location filename="../mainwindow.cpp" line="1542"/>
         <source>Select map layer type</source>
         <translation>Vyberte typ vrstvy mapy</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1265"/>
-        <location filename="../mainwindow.cpp" line="1322"/>
-        <location filename="../mainwindow.cpp" line="1326"/>
-        <location filename="../mainwindow.cpp" line="1384"/>
+        <location filename="../mainwindow.cpp" line="1451"/>
+        <location filename="../mainwindow.cpp" line="1455"/>
+        <location filename="../mainwindow.cpp" line="1513"/>
         <source>Update appearance</source>
         <translation>Aktualizovat vzhled</translation>
     </message>
@@ -1158,12 +890,12 @@
         <translation>Ctrl+Shift+=</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="391"/>
+        <location filename="../mainwindow.cpp" line="504"/>
         <source>Confirmation</source>
         <translation>Potvrzení</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="391"/>
+        <location filename="../mainwindow.cpp" line="504"/>
         <source>Unsaved changes will be lost, are you sure?</source>
         <translation>Neuložené změny budou ztraceny, jste si jisti?</translation>
     </message>
@@ -1180,184 +912,196 @@
         <translation type="obsolete">Úroveň - %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="453"/>
-        <location filename="../mainwindow.cpp" line="1430"/>
+        <location filename="../mainwindow.cpp" line="484"/>
+        <source>Mapeditor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="485"/>
+        <source>Mapeditor on Android is experimental.
+
+For the best experience, we recommend using the map editor on a tablet (or with a mouse/pen).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="575"/>
+        <location filename="../mainwindow.cpp" line="1559"/>
         <source>Level %1: %2</source>
         <translation>Úroveň %1: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="479"/>
+        <location filename="../mainwindow.cpp" line="601"/>
         <source>Mods are required</source>
         <translation>Vyžadované modifikace</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="487"/>
-        <location filename="../mainwindow.cpp" line="493"/>
+        <location filename="../mainwindow.cpp" line="609"/>
+        <location filename="../mainwindow.cpp" line="615"/>
         <source>Failed to open map</source>
         <translation>Otevření mapy se nezdařilo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="524"/>
+        <location filename="../mainwindow.cpp" line="646"/>
         <source>Open map</source>
         <translation>Otevřít mapu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="526"/>
+        <location filename="../mainwindow.cpp" line="648"/>
         <source>All supported maps (*.vmap *.h3m);;VCMI maps(*.vmap);;HoMM3 maps(*.h3m)</source>
         <translation>Všechny podporované mapy (*.vmap *.h3m);; Mapy VCMI(*.vmap);;Mapy HoMM3(*.h3m)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="580"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Recently Opened Files</source>
         <translation>Naposledny otevřené soubory</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="633"/>
+        <location filename="../mainwindow.cpp" line="756"/>
         <source>Map validation</source>
         <translation>Kontrola mapy</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="635"/>
+        <location filename="../mainwindow.cpp" line="758"/>
         <source>Map has critical problems and most probably will not be playable. Open Validator from the Map menu to see issues found</source>
         <translation>Mapa obsahuje kritické problémy a pravděpodobně nebude hratelná. Otevřete Validátor z nabídky Mapa, abyste zobrazili nalezené chyby</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="637"/>
+        <location filename="../mainwindow.cpp" line="760"/>
         <source>Map has some errors. Open Validator from the Map menu to see issues found</source>
         <translation>Mapa obsahuje chyby. Otevřete Validátor z nabídky Mapa, abyste zobrazili nalezené problémy</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="664"/>
+        <location filename="../mainwindow.cpp" line="787"/>
         <source>Failed to save map</source>
         <translation>Nepodařilo se uložit mapu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="677"/>
+        <location filename="../mainwindow.cpp" line="800"/>
         <source>Save map</source>
         <translation>Uložit mapu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="677"/>
+        <location filename="../mainwindow.cpp" line="801"/>
         <source>VCMI maps (*.vmap)</source>
         <translation>Mapy VCMI (*.vmap)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="885"/>
+        <location filename="../mainwindow.cpp" line="1014"/>
         <source>Type</source>
         <translation>Druh</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="898"/>
+        <location filename="../mainwindow.cpp" line="1027"/>
         <source>Towns</source>
         <translation>Města</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="899"/>
+        <location filename="../mainwindow.cpp" line="1028"/>
         <source>Objects</source>
         <translation>Objekty</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="900"/>
+        <location filename="../mainwindow.cpp" line="1029"/>
         <source>Heroes</source>
         <translation>Hrdinové</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="901"/>
+        <location filename="../mainwindow.cpp" line="1030"/>
         <source>Artifacts</source>
         <translation>Artefakty</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="902"/>
+        <location filename="../mainwindow.cpp" line="1031"/>
         <source>Resources</source>
         <translation>Suroviny</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="903"/>
+        <location filename="../mainwindow.cpp" line="1032"/>
         <source>Banks</source>
         <translation>Zásobárny</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="904"/>
+        <location filename="../mainwindow.cpp" line="1033"/>
         <source>Dwellings</source>
         <translation>Obydlí</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="905"/>
+        <location filename="../mainwindow.cpp" line="1034"/>
         <source>Grounds</source>
         <translation>Země</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="906"/>
+        <location filename="../mainwindow.cpp" line="1035"/>
         <source>Teleports</source>
         <translation>Teleporty</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="907"/>
+        <location filename="../mainwindow.cpp" line="1036"/>
         <source>Mines</source>
         <translation>Doly</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="908"/>
+        <location filename="../mainwindow.cpp" line="1037"/>
         <source>Triggers</source>
         <translation>Spouštěče</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="909"/>
+        <location filename="../mainwindow.cpp" line="1038"/>
         <source>Monsters</source>
         <translation>Jednotky</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="910"/>
+        <location filename="../mainwindow.cpp" line="1039"/>
         <source>Quests</source>
         <translation>Úkoly</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="911"/>
+        <location filename="../mainwindow.cpp" line="1040"/>
         <source>Wog Objects</source>
         <translation>WoG objekty</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="912"/>
+        <location filename="../mainwindow.cpp" line="1041"/>
         <source>Obstacles</source>
         <translation>Překážky</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="913"/>
+        <location filename="../mainwindow.cpp" line="1042"/>
         <source>Other</source>
         <translation>Ostatní</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1050"/>
+        <location filename="../mainwindow.cpp" line="1179"/>
         <source>Mods loading problem</source>
         <translation>Problém s načítáním modifikací</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1050"/>
+        <location filename="../mainwindow.cpp" line="1179"/>
         <source>Critical error during Mods loading. Disable invalid mods and restart.</source>
         <translation>Kritická chyba při načítání modifikací. Deaktivujte neplatné modifikace a restartujte.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1056"/>
+        <location filename="../mainwindow.cpp" line="1185"/>
         <source>Undo clicked</source>
         <translation>Kliknuto na Zpět</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1067"/>
+        <location filename="../mainwindow.cpp" line="1196"/>
         <source>Redo clicked</source>
         <translation>Kliknuto na Znovu</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1078"/>
+        <location filename="../mainwindow.cpp" line="1207"/>
         <source>Passability clicked</source>
         <translation>Kliknuto na Průchodnost</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1091"/>
+        <location filename="../mainwindow.cpp" line="1220"/>
         <source>Grid clicked</source>
         <translation>Kliknuto na Mřížku</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1172"/>
+        <location filename="../mainwindow.cpp" line="1301"/>
         <source>Fill clicked</source>
         <translation>Kliknuto na Výplň</translation>
     </message>
@@ -1366,79 +1110,378 @@
         <translation type="vanished">Zobrazit povrch</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1322"/>
+        <location filename="../mainwindow.cpp" line="1451"/>
         <source>No objects selected</source>
         <translation>Nejsou vybrány žádné objekty</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1326"/>
+        <location filename="../mainwindow.cpp" line="1455"/>
         <source>This operation is irreversible. Do you want to continue?</source>
         <translation>Tento úkon je nezvratný. Chcete pokračovat?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1384"/>
+        <location filename="../mainwindow.cpp" line="1513"/>
         <source>Errors occurred. %1 objects were not updated</source>
         <translation>Nastaly chyby. Nebylo aktualizováno %1 objektů</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1414"/>
+        <location filename="../mainwindow.cpp" line="1543"/>
         <source>Type:</source>
         <translation>Typ:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1469"/>
+        <location filename="../mainwindow.cpp" line="1604"/>
+        <source>Image format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1605"/>
+        <source>Select image format:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1619"/>
+        <location filename="../mainwindow.cpp" line="1623"/>
         <source>Save to image</source>
         <translation>Uložit do obrázku</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1501"/>
+        <location filename="../mainwindow.cpp" line="1665"/>
+        <source>Failed to save image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1665"/>
+        <source>Cannot save image to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1685"/>
         <source>Select maps to convert</source>
         <translation>Vyberte mapy pro převod</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1503"/>
+        <location filename="../mainwindow.cpp" line="1687"/>
         <source>HoMM3 maps(*.h3m)</source>
         <translation>Mapy HoMM3 (*.h3m)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1507"/>
+        <location filename="../mainwindow.cpp" line="1693"/>
+        <location filename="../mainwindow.cpp" line="1700"/>
         <source>Choose directory to save converted maps</source>
         <translation>Vyberte složku pro uložení převedených map</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1521"/>
+        <location filename="../mainwindow.cpp" line="1695"/>
+        <source>Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1716"/>
         <source>Operation completed</source>
         <translation>Operace dokončena</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1521"/>
+        <location filename="../mainwindow.cpp" line="1716"/>
         <source>Successfully converted %1 maps</source>
         <translation>Úspěšně převedeno %1 map</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1525"/>
+        <location filename="../mainwindow.cpp" line="1720"/>
         <source>Failed to convert the map. Abort operation</source>
         <translation>Převod map selhal. Úkon zrušen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1531"/>
+        <location filename="../mainwindow.cpp" line="1728"/>
         <source>Select campaign to convert</source>
         <translation>Vyberte kampaň ke konverzi</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1533"/>
+        <location filename="../mainwindow.cpp" line="1729"/>
         <source>HoMM3 campaigns (*.h3c)</source>
         <translation>Kampaně HoMM3 (*.h3c)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1537"/>
+        <location filename="../mainwindow.cpp" line="1735"/>
         <source>Select destination file</source>
         <translation>Vyberte cílový soubor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1539"/>
+        <location filename="../mainwindow.cpp" line="1736"/>
         <source>VCMI campaigns (*.vcmp)</source>
         <translation>Kampaně VCMI (*.vcmp)</translation>
+    </message>
+</context>
+<context>
+    <name>EntitiesSelector</name>
+    <message>
+        <location filename="../templateeditor/entitiesselector.ui" line="14"/>
+        <location filename="../templateeditor/entitiesselector.ui" line="20"/>
+        <source>Select Entities</source>
+        <translation>Vybrat entity</translation>
+    </message>
+</context>
+<context>
+    <name>EventSettings</name>
+    <message>
+        <location filename="../mapsettings/eventsettings.ui" line="14"/>
+        <source>Form</source>
+        <translation>Formulář</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/eventsettings.ui" line="34"/>
+        <source>Timed events</source>
+        <translation>Načasované události</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/eventsettings.ui" line="60"/>
+        <source>Add</source>
+        <translation>Přidat</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/eventsettings.ui" line="73"/>
+        <source>Remove</source>
+        <translation>Odebrat</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/eventsettings.cpp" line="150"/>
+        <source>New event</source>
+        <translation>Nová událost</translation>
+    </message>
+</context>
+<context>
+    <name>FactionSelector</name>
+    <message>
+        <location filename="../templateeditor/factionselector.ui" line="14"/>
+        <location filename="../templateeditor/factionselector.ui" line="20"/>
+        <source>Select Factions</source>
+        <translation>Vybrat frakce</translation>
+    </message>
+    <message>
+        <location filename="../templateeditor/factionselector.cpp" line="24"/>
+        <source>Faction Selector</source>
+        <translation>Výběr frakcí</translation>
+    </message>
+</context>
+<context>
+    <name>GeneralSettings</name>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="14"/>
+        <source>Form</source>
+        <translation>Formulář</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="32"/>
+        <source>Map name</source>
+        <translation>Název mapy</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="42"/>
+        <source>Map description</source>
+        <translation>Popis mapy</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="52"/>
+        <source>Author</source>
+        <translation>Autor</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="62"/>
+        <source>Author contact (e.g. email)</source>
+        <translation>Kontakt na autora (např. email)</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="72"/>
+        <source>Map Creation Time</source>
+        <translation>Čas vytvoření mapy</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="86"/>
+        <source>Map Version</source>
+        <translation>Verze mapy</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="120"/>
+        <source>Limit maximum heroes level</source>
+        <translation>Omezit max. úroveň hrdinů</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/generalsettings.ui" line="129"/>
+        <source>Difficulty</source>
+        <translation>Obtížnost</translation>
+    </message>
+</context>
+<context>
+    <name>GeneratorProgress</name>
+    <message>
+        <location filename="../generatorprogress.ui" line="29"/>
+        <source>Generating map</source>
+        <translation>Generování mapy</translation>
+    </message>
+</context>
+<context>
+    <name>HeroArtifactsWidget</name>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="29"/>
+        <source>Artifacts</source>
+        <translation>Artefakty</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="71"/>
+        <source>Add</source>
+        <translation>Přidat</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="87"/>
+        <source>Remove</source>
+        <translation>Odebrat</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="130"/>
+        <source>Slot</source>
+        <translation>Slot</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="135"/>
+        <source>Artifact</source>
+        <translation>Artefakt</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="158"/>
+        <source>Save</source>
+        <translation>Uložit</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroartifactswidget.ui" line="165"/>
+        <source>Cancel</source>
+        <translation>Zrušit</translation>
+    </message>
+</context>
+<context>
+    <name>HeroSkillsWidget</name>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="14"/>
+        <source>Hero skills</source>
+        <translation>Schopnosti hrdiny</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="28"/>
+        <location filename="../inspector/heroskillswidget.ui" line="38"/>
+        <location filename="../inspector/heroskillswidget.ui" line="48"/>
+        <location filename="../inspector/heroskillswidget.ui" line="58"/>
+        <source>TextLabel</source>
+        <translation>Textový štítek</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="97"/>
+        <source>Add</source>
+        <translation>Přidat</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="113"/>
+        <source>Remove</source>
+        <translation>Odebrat</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="153"/>
+        <source>Skill</source>
+        <translation>Dovednost</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="158"/>
+        <source>Level</source>
+        <translation>Úroveň</translation>
+    </message>
+    <message>
+        <location filename="../inspector/heroskillswidget.ui" line="166"/>
+        <source>Customize skills</source>
+        <translation>Přizpůsobit schopnosti</translation>
+    </message>
+</context>
+<context>
+    <name>HeroSpellWidget</name>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="29"/>
+        <source>Spells</source>
+        <translation>Kouzla</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="47"/>
+        <source>Customize spells</source>
+        <translation>Přizpůsobit kouzla</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="79"/>
+        <source>Level 1</source>
+        <translation>Úroveň 1</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="120"/>
+        <source>Level 2</source>
+        <translation>Úroveň 2</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="161"/>
+        <source>Level 3</source>
+        <translation>Úroveň 3</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="202"/>
+        <source>Level 4</source>
+        <translation>Úroveň 4</translation>
+    </message>
+    <message>
+        <location filename="../inspector/herospellwidget.ui" line="243"/>
+        <source>Level 5</source>
+        <translation>Úroveň 5</translation>
+    </message>
+</context>
+<context>
+    <name>LoseConditions</name>
+    <message>
+        <location filename="../mapsettings/loseconditions.ui" line="14"/>
+        <source>Form</source>
+        <translation>Formulář</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.ui" line="40"/>
+        <source>Defeat message</source>
+        <translation>Zpráva prohry</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.ui" line="59"/>
+        <source>7 days without town</source>
+        <translation>7 dní bez města</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.ui" line="72"/>
+        <source>Parameters</source>
+        <translation>Parametry</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.cpp" line="37"/>
+        <source>No special loss</source>
+        <translation>Bez speciální prohry</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.cpp" line="38"/>
+        <source>Lose castle</source>
+        <translation>Ztráta města</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.cpp" line="39"/>
+        <source>Lose hero</source>
+        <translation>Ztráta hrdiny</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.cpp" line="40"/>
+        <source>Time expired</source>
+        <translation>Vypršení času</translation>
+    </message>
+    <message>
+        <location filename="../mapsettings/loseconditions.cpp" line="41"/>
+        <source>Days without town</source>
+        <translation>Dny bez města</translation>
     </message>
 </context>
 <context>
@@ -1466,6 +1509,14 @@ Chcete to udělat nyní?</translation>
         <location filename="../mapcontroller.cpp" line="636"/>
         <source>This object&apos;s mod is mandatory for map to remain valid.</source>
         <translation>Modifikace tohoto objektu je povinná, aby mapa zůstala platná.</translation>
+    </message>
+</context>
+<context>
+    <name>MapEditor::MapView</name>
+    <message>
+        <location filename="../mapview.cpp" line="664"/>
+        <source>Can&apos;t place object</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1539,9 +1590,8 @@ Chcete to udělat nyní?</translation>
 <context>
     <name>MapView</name>
     <message>
-        <location filename="../mapview.cpp" line="637"/>
         <source>Can&apos;t place object</source>
-        <translation>Objekt nezle umístit</translation>
+        <translation type="vanished">Objekt nezle umístit</translation>
     </message>
 </context>
 <context>
@@ -1561,17 +1611,17 @@ Chcete to udělat nyní?</translation>
         <translation>Vybrat doly</translation>
     </message>
     <message>
-        <location filename="../templateeditor/mineselector.cpp" line="29"/>
+        <location filename="../templateeditor/mineselector.cpp" line="28"/>
         <source>Mine Selector</source>
         <translation>Výběr dolů</translation>
     </message>
     <message>
-        <location filename="../templateeditor/mineselector.cpp" line="35"/>
+        <location filename="../templateeditor/mineselector.cpp" line="34"/>
         <source>Resource</source>
         <translation>Surovina</translation>
     </message>
     <message>
-        <location filename="../templateeditor/mineselector.cpp" line="35"/>
+        <location filename="../templateeditor/mineselector.cpp" line="34"/>
         <source>Mines</source>
         <translation>Doly</translation>
     </message>
@@ -1940,27 +1990,27 @@ Chcete to udělat nyní?</translation>
         <translation>Dovednosti:</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="940"/>
+        <location filename="../inspector/inspector.cpp" line="943"/>
         <source>Compliant</source>
         <translation>Ochotná</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="941"/>
+        <location filename="../inspector/inspector.cpp" line="944"/>
         <source>Friendly</source>
         <translation>Přátelská</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="942"/>
+        <location filename="../inspector/inspector.cpp" line="945"/>
         <source>Aggressive</source>
         <translation>Agresivní</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="943"/>
+        <location filename="../inspector/inspector.cpp" line="946"/>
         <source>Hostile</source>
         <translation>Nepřátelská</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="944"/>
+        <location filename="../inspector/inspector.cpp" line="947"/>
         <source>Savage</source>
         <translation>Brutální</translation>
     </message>
@@ -2021,54 +2071,54 @@ Chcete to udělat nyní?</translation>
         <translation>Události</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="409"/>
+        <location filename="../inspector/inspector.cpp" line="412"/>
         <source>Resource</source>
         <translation>Surovina</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="440"/>
+        <location filename="../inspector/inspector.cpp" line="443"/>
         <source>Artifact reward</source>
         <translation>Odměna: artefakt</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="483"/>
+        <location filename="../inspector/inspector.cpp" line="486"/>
         <source>Quest</source>
         <translation>Úkol</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="501"/>
+        <location filename="../inspector/inspector.cpp" line="504"/>
         <source>Identifier</source>
         <translation>Identifikátor</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="502"/>
+        <location filename="../inspector/inspector.cpp" line="505"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="503"/>
+        <location filename="../inspector/inspector.cpp" line="506"/>
         <source>SubID</source>
         <translation>SubID</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="504"/>
+        <location filename="../inspector/inspector.cpp" line="507"/>
         <source>InstanceName</source>
         <translation>Jméno instance</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="509"/>
+        <location filename="../inspector/inspector.cpp" line="512"/>
         <source>IsStatic</source>
         <translation>Statický</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="883"/>
-        <location filename="../inspector/inspector.cpp" line="994"/>
+        <location filename="../inspector/inspector.cpp" line="886"/>
+        <location filename="../inspector/inspector.cpp" line="997"/>
         <source>neutral</source>
         <translation>neutrální</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="246"/>
-        <location filename="../inspector/inspector.cpp" line="441"/>
+        <location filename="../inspector/inspector.cpp" line="444"/>
         <source>Army</source>
         <translation>Armáda</translation>
     </message>
@@ -2079,47 +2129,47 @@ Chcete to udělat nyní?</translation>
         <location filename="../inspector/inspector.cpp" line="281"/>
         <location filename="../inspector/inspector.cpp" line="288"/>
         <location filename="../inspector/inspector.cpp" line="319"/>
-        <location filename="../inspector/inspector.cpp" line="407"/>
-        <location filename="../inspector/inspector.cpp" line="512"/>
-        <location filename="../inspector/inspector.cpp" line="559"/>
+        <location filename="../inspector/inspector.cpp" line="410"/>
+        <location filename="../inspector/inspector.cpp" line="515"/>
+        <location filename="../inspector/inspector.cpp" line="562"/>
         <source>Owner</source>
         <translation>Vlastník</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="258"/>
-        <location filename="../inspector/inspector.cpp" line="667"/>
+        <location filename="../inspector/inspector.cpp" line="670"/>
         <source>Same as town</source>
         <translation>Stejná jako město</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="274"/>
-        <location filename="../inspector/inspector.cpp" line="682"/>
+        <location filename="../inspector/inspector.cpp" line="685"/>
         <source>Removable units</source>
         <translation>Odstranitelné jednotky</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="299"/>
-        <location filename="../inspector/inspector.cpp" line="690"/>
+        <location filename="../inspector/inspector.cpp" line="693"/>
         <source>Placeholder type</source>
         <translation>Typ výplně</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="302"/>
-        <location filename="../inspector/inspector.cpp" line="708"/>
+        <location filename="../inspector/inspector.cpp" line="711"/>
         <source>Power rank</source>
         <translation>Hodnocení síly</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="310"/>
         <location filename="../inspector/inspector.cpp" line="350"/>
-        <location filename="../inspector/inspector.cpp" line="711"/>
-        <location filename="../inspector/inspector.cpp" line="735"/>
+        <location filename="../inspector/inspector.cpp" line="714"/>
+        <location filename="../inspector/inspector.cpp" line="738"/>
         <source>Hero type</source>
         <translation>Typ hrdiny</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="320"/>
-        <location filename="../inspector/inspector.cpp" line="732"/>
+        <location filename="../inspector/inspector.cpp" line="735"/>
         <source>Experience</source>
         <translation>Zkušenosti</translation>
     </message>
@@ -2137,19 +2187,19 @@ Chcete to udělat nyní?</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="326"/>
-        <location filename="../inspector/inspector.cpp" line="721"/>
+        <location filename="../inspector/inspector.cpp" line="724"/>
         <source>Gender</source>
         <translation>Pohlaví</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="328"/>
-        <location filename="../inspector/inspector.cpp" line="724"/>
+        <location filename="../inspector/inspector.cpp" line="727"/>
         <source>Name</source>
         <translation>Jméno</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="329"/>
-        <location filename="../inspector/inspector.cpp" line="728"/>
+        <location filename="../inspector/inspector.cpp" line="731"/>
         <source>Biography</source>
         <translation>Životopis</translation>
     </message>
@@ -2161,135 +2211,135 @@ Chcete to udělat nyní?</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="359"/>
-        <location filename="../inspector/inspector.cpp" line="747"/>
+        <location filename="../inspector/inspector.cpp" line="750"/>
         <source>Patrol radius</source>
         <translation>Poloměr hlídky</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="367"/>
-        <location filename="../inspector/inspector.cpp" line="624"/>
+        <location filename="../inspector/inspector.cpp" line="627"/>
         <source>Town name</source>
         <translation>Jméno města</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="374"/>
-        <location filename="../inspector/inspector.cpp" line="628"/>
+        <location filename="../inspector/inspector.cpp" line="631"/>
         <source>Same as player</source>
         <translation>Stejná jako hráč</translation>
     </message>
     <message>
         <location filename="../inspector/inspector.cpp" line="381"/>
-        <location filename="../inspector/inspector.cpp" line="418"/>
-        <location filename="../inspector/inspector.cpp" line="425"/>
-        <location filename="../inspector/inspector.cpp" line="432"/>
-        <location filename="../inspector/inspector.cpp" line="458"/>
-        <location filename="../inspector/inspector.cpp" line="601"/>
-        <location filename="../inspector/inspector.cpp" line="636"/>
-        <location filename="../inspector/inspector.cpp" line="653"/>
-        <location filename="../inspector/inspector.cpp" line="772"/>
+        <location filename="../inspector/inspector.cpp" line="421"/>
+        <location filename="../inspector/inspector.cpp" line="428"/>
+        <location filename="../inspector/inspector.cpp" line="435"/>
+        <location filename="../inspector/inspector.cpp" line="461"/>
+        <location filename="../inspector/inspector.cpp" line="604"/>
+        <location filename="../inspector/inspector.cpp" line="639"/>
+        <location filename="../inspector/inspector.cpp" line="656"/>
+        <location filename="../inspector/inspector.cpp" line="775"/>
         <source>Message</source>
         <translation>Zpráva</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="398"/>
-        <location filename="../inspector/inspector.cpp" line="657"/>
+        <location filename="../inspector/inspector.cpp" line="401"/>
+        <location filename="../inspector/inspector.cpp" line="660"/>
         <source>Spell</source>
         <translation>Kouzlo</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="410"/>
-        <location filename="../inspector/inspector.cpp" line="645"/>
+        <location filename="../inspector/inspector.cpp" line="413"/>
+        <location filename="../inspector/inspector.cpp" line="648"/>
         <source>Productivity</source>
         <translation>Produktivita</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="417"/>
-        <location filename="../inspector/inspector.cpp" line="442"/>
-        <location filename="../inspector/inspector.cpp" line="764"/>
-        <location filename="../inspector/inspector.cpp" line="781"/>
+        <location filename="../inspector/inspector.cpp" line="420"/>
+        <location filename="../inspector/inspector.cpp" line="445"/>
+        <location filename="../inspector/inspector.cpp" line="767"/>
+        <location filename="../inspector/inspector.cpp" line="784"/>
         <source>Amount</source>
         <translation>Množství</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="436"/>
-        <location filename="../inspector/inspector.cpp" line="775"/>
+        <location filename="../inspector/inspector.cpp" line="439"/>
+        <location filename="../inspector/inspector.cpp" line="778"/>
         <source>Character</source>
         <translation>Postava</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="926"/>
+        <location filename="../inspector/inspector.cpp" line="929"/>
         <source>Select town</source>
         <translation>Vyber město</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="438"/>
-        <location filename="../inspector/inspector.cpp" line="777"/>
+        <location filename="../inspector/inspector.cpp" line="441"/>
+        <location filename="../inspector/inspector.cpp" line="780"/>
         <source>Never flees</source>
         <translation>Nikdy neutíká</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="439"/>
-        <location filename="../inspector/inspector.cpp" line="779"/>
+        <location filename="../inspector/inspector.cpp" line="442"/>
+        <location filename="../inspector/inspector.cpp" line="782"/>
         <source>Not growing</source>
         <translation>Neroste</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="451"/>
-        <location filename="../inspector/inspector.cpp" line="491"/>
+        <location filename="../inspector/inspector.cpp" line="454"/>
+        <location filename="../inspector/inspector.cpp" line="494"/>
         <source>Reward</source>
         <translation>Odměna</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="465"/>
-        <location filename="../inspector/inspector.cpp" line="610"/>
+        <location filename="../inspector/inspector.cpp" line="468"/>
+        <location filename="../inspector/inspector.cpp" line="613"/>
         <source>Remove after</source>
         <translation>Odstranit po</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="466"/>
-        <location filename="../inspector/inspector.cpp" line="613"/>
+        <location filename="../inspector/inspector.cpp" line="469"/>
+        <location filename="../inspector/inspector.cpp" line="616"/>
         <source>Human trigger</source>
         <translation>Lidský spouštěč</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="467"/>
-        <location filename="../inspector/inspector.cpp" line="616"/>
+        <location filename="../inspector/inspector.cpp" line="470"/>
+        <location filename="../inspector/inspector.cpp" line="619"/>
         <source>Cpu trigger</source>
         <translation>AI spouštěč</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="475"/>
-        <location filename="../inspector/inspector.cpp" line="789"/>
+        <location filename="../inspector/inspector.cpp" line="478"/>
+        <location filename="../inspector/inspector.cpp" line="792"/>
         <source>First visit text</source>
         <translation>Text při první návštěvě</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="476"/>
-        <location filename="../inspector/inspector.cpp" line="792"/>
+        <location filename="../inspector/inspector.cpp" line="479"/>
+        <location filename="../inspector/inspector.cpp" line="795"/>
         <source>Next visit text</source>
         <translation>Text při další návštěvě</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="477"/>
-        <location filename="../inspector/inspector.cpp" line="795"/>
+        <location filename="../inspector/inspector.cpp" line="480"/>
+        <location filename="../inspector/inspector.cpp" line="798"/>
         <source>Completed text</source>
         <translation>Text při dokončení</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="478"/>
-        <location filename="../inspector/inspector.cpp" line="492"/>
-        <location filename="../inspector/inspector.cpp" line="798"/>
+        <location filename="../inspector/inspector.cpp" line="481"/>
+        <location filename="../inspector/inspector.cpp" line="495"/>
+        <location filename="../inspector/inspector.cpp" line="801"/>
         <source>Repeat quest</source>
         <translation>Opakovatelný úkol</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="479"/>
-        <location filename="../inspector/inspector.cpp" line="800"/>
+        <location filename="../inspector/inspector.cpp" line="482"/>
+        <location filename="../inspector/inspector.cpp" line="803"/>
         <source>Time limit</source>
         <translation>Časový limit</translation>
     </message>
     <message>
-        <location filename="../inspector/inspector.cpp" line="881"/>
+        <location filename="../inspector/inspector.cpp" line="884"/>
         <source>UNFLAGGABLE</source>
         <translation>NEOZNAČITELNÝ</translation>
     </message>
@@ -2334,91 +2384,91 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
         <translation>Výchozí</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="447"/>
+        <location filename="../inspector/questwidget.cpp" line="446"/>
         <source>Quest:</source>
         <translation>Úkol:</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="448"/>
+        <location filename="../inspector/questwidget.cpp" line="447"/>
         <source>Day of Week: %1</source>
         <translation>Den v týdnu: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="449"/>
+        <location filename="../inspector/questwidget.cpp" line="448"/>
         <source>Days Passed: %1</source>
         <translation>Uplynulé dny: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="450"/>
+        <location filename="../inspector/questwidget.cpp" line="449"/>
         <location filename="../inspector/rewardswidget.cpp" line="773"/>
         <source>Hero Level: %1</source>
         <translation>Úroveň hrdiny: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="451"/>
+        <location filename="../inspector/questwidget.cpp" line="450"/>
         <location filename="../inspector/rewardswidget.cpp" line="774"/>
         <source>Hero Experience: %1</source>
         <translation>Zkušenosti hrdiny: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="452"/>
+        <location filename="../inspector/questwidget.cpp" line="451"/>
         <source>Mana Points: %1</source>
         <translation>Magická energie: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="453"/>
+        <location filename="../inspector/questwidget.cpp" line="452"/>
         <location filename="../inspector/rewardswidget.cpp" line="776"/>
         <source>Mana Percentage: %1</source>
         <translation>Podíl magické energie: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="454"/>
+        <location filename="../inspector/questwidget.cpp" line="453"/>
         <location filename="../inspector/rewardswidget.cpp" line="779"/>
         <source>Primary Skills: %1/%2/%3/%4</source>
         <translation>Primární dovednosti: %1/%2/%3/%4</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="465"/>
+        <location filename="../inspector/questwidget.cpp" line="464"/>
         <location filename="../inspector/rewardswidget.cpp" line="789"/>
         <source>Resources: %1</source>
         <translation>Suroviny: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="472"/>
+        <location filename="../inspector/questwidget.cpp" line="471"/>
         <location filename="../inspector/rewardswidget.cpp" line="795"/>
         <source>Artifacts: %1</source>
         <translation>Artefakty: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="479"/>
+        <location filename="../inspector/questwidget.cpp" line="478"/>
         <location filename="../inspector/rewardswidget.cpp" line="801"/>
         <source>Spells: %1</source>
         <translation>Kouzla: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="486"/>
+        <location filename="../inspector/questwidget.cpp" line="485"/>
         <location filename="../inspector/rewardswidget.cpp" line="807"/>
         <source>Secondary Skills: %1</source>
         <translation>Dovednosti: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="493"/>
+        <location filename="../inspector/questwidget.cpp" line="492"/>
         <location filename="../inspector/rewardswidget.cpp" line="813"/>
         <source>Creatures: %1</source>
         <translation>Jednotky: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="500"/>
+        <location filename="../inspector/questwidget.cpp" line="499"/>
         <source>Heroes: %1</source>
         <translation>Hrdinové: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="507"/>
+        <location filename="../inspector/questwidget.cpp" line="506"/>
         <source>Hero Classes: %1</source>
         <translation>Rasy hrdinů: %1</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="516"/>
+        <location filename="../inspector/questwidget.cpp" line="515"/>
         <source>Players: %1</source>
         <translation>Hráči: %1</translation>
     </message>
@@ -2483,9 +2533,31 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
         <translation>Možné:</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/campaigneditor.cpp" line="220"/>
+        <location filename="../campaigneditor/campaigneditor.cpp" line="236"/>
         <source>Failed to open campaign</source>
         <translation>Kampěň se nepodařilo otevřít</translation>
+    </message>
+    <message>
+        <location filename="../androidfilepicker.cpp" line="36"/>
+        <source>Where do you want to open the file from?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../androidfilepicker.cpp" line="37"/>
+        <location filename="../androidfilepicker.cpp" line="98"/>
+        <source>Internal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../androidfilepicker.cpp" line="38"/>
+        <location filename="../androidfilepicker.cpp" line="99"/>
+        <source>External</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../androidfilepicker.cpp" line="97"/>
+        <source>Where do you want to save the file?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2611,12 +2683,12 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
         <translation>Hráči</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="39"/>
+        <location filename="../inspector/questwidget.cpp" line="38"/>
         <source>None</source>
         <translation>Žádný</translation>
     </message>
     <message>
-        <location filename="../inspector/questwidget.cpp" line="41"/>
+        <location filename="../inspector/questwidget.cpp" line="40"/>
         <source>Day %1</source>
         <translation>Den %1</translation>
     </message>
@@ -2932,293 +3004,295 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     <name>ScenarioProperties</name>
     <message>
         <location filename="../campaigneditor/scenarioproperties.ui" line="14"/>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="35"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="37"/>
         <source>Scenario Properties</source>
         <translation>Vlastnosti scénáře</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="30"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="36"/>
         <source>General</source>
         <translation>Obecné</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="36"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="42"/>
         <source>Region name</source>
         <translation>Název oblasti</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="50"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="56"/>
         <source>Region color</source>
         <translation>Barva oblasti</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="60"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="66"/>
         <source>Scenario name</source>
         <translation>Název scénáře</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="74"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="80"/>
         <source>Map file</source>
         <translation>Soubory mapy</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="90"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="96"/>
         <source>Import...</source>
         <translation>Import...</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="97"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="103"/>
         <source>Export...</source>
         <translation>Export...</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="104"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="579"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="110"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="598"/>
         <source>Remove</source>
         <translation>Odebrat</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="113"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="119"/>
         <source>Default difficulty</source>
         <translation>Základní obtížnost</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="123"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="129"/>
         <source>Prerequisites</source>
         <translation>Požadavky</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="133"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="139"/>
         <source>Region right-click text</source>
         <translation>Text při kliknutí pravým tlačítkem na oblast</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="144"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="150"/>
         <source>Prologue/Epilogue</source>
         <translation>Prolog / Epilog</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="150"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="168"/>
         <source>Prologue</source>
         <translation>Prolog</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="156"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="250"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="180"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="276"/>
         <source>Enabled</source>
         <translation>Povolit</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="168"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="262"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="vanished">Video</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="185"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="279"/>
         <source>Video 2</source>
-        <translation>Video 2</translation>
+        <translation type="vanished">Video 2</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="202"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="296"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="192"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="288"/>
+        <source>Videos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="212"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="308"/>
         <source>Music</source>
         <translation>Hudba</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="219"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="313"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="232"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="325"/>
         <source>Voice</source>
         <translation>Hlas</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="231"/>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="325"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="249"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="342"/>
         <source>Text</source>
         <translation>Text</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="244"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="264"/>
         <source>Epilogue</source>
         <translation>Epilog</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="339"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="358"/>
         <source>Crossover</source>
         <translation>Přenášení</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="345"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="364"/>
         <source>Crossover heroes retain</source>
         <translation>Přenesení hrdinové si ponechají</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="351"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="370"/>
         <source>Experience</source>
         <translation>Zkušenosti</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="358"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="377"/>
         <source>Primary skills</source>
         <translation>Základní schopnosti</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="365"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="384"/>
         <source>Secondary skills</source>
         <translation>Druhotné schopnosti</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="372"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="391"/>
         <source>Spells</source>
         <translation>Kouzla</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="379"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="398"/>
         <source>Artifacts</source>
         <translation>Artefakty</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="412"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="431"/>
         <source>All</source>
         <translation>Vše</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="419"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="438"/>
         <source>None</source>
         <translation>Žádné</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="446"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="465"/>
         <source>Crossover artifacts</source>
         <translation>Přenášené artefakty</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="475"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="494"/>
         <source>Starting</source>
         <translation>Počáteční</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="481"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="500"/>
         <source>Starting options are</source>
         <translation>Počáteční možnosti jsou</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="488"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="507"/>
         <source>Starting bonus options</source>
         <translation>Možnosti počátečního bonusu</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="495"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="514"/>
         <source>Hero crossover options</source>
         <translation>Možnosti přenosu hrdinů</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="502"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="521"/>
         <source>Starting hero options</source>
         <translation>Možnosti počátečního hrdiny</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="520"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="539"/>
         <source>Bonus</source>
         <translation>Bonus</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="526"/>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="460"/>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="470"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="545"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="474"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="484"/>
         <source>Player position</source>
         <translation>Pozice hráče</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="536"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="555"/>
         <source>Starting bonus option</source>
         <translation>Možnost počátečního bonusu</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="547"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="566"/>
         <source>Crossover/ Starting hero</source>
         <translation>Přenášený / Počáteční hrdina</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="565"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="584"/>
         <source>Add...</source>
         <translation>Přidat...</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.ui" line="572"/>
+        <location filename="../campaigneditor/scenarioproperties.ui" line="591"/>
         <source>Edit...</source>
         <translation>Upravit...</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="121"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="123"/>
         <source>Strongest</source>
         <translation>Nejsilnější</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="122"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="124"/>
         <source>Generated</source>
         <translation>Vygenerováno</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="123"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="125"/>
         <source>Random</source>
         <translation>Náhodný</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="140"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="142"/>
         <source>No map</source>
         <translation>Žádný mapa</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="183"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="185"/>
         <source>Player</source>
         <translation>Hráč</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="391"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="393"/>
         <source>Open map</source>
         <translation>Otevřít mapu</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="391"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="395"/>
         <source>All supported maps (*.vmap *.h3m);;VCMI maps(*.vmap);;HoMM3 maps(*.h3m)</source>
         <translation>Všechny podporované mapy (*.vmap *.h3m);; Mapy VCMI(*.vmap);;Mapy HoMM3(*.h3m)</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="398"/>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="431"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="404"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="443"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="398"/>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="431"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="404"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="443"/>
         <source>Could not open the file.</source>
         <translation>Soubor se nepodařilo otevřít.</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="424"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="431"/>
         <source>Save map</source>
         <translation>Uložit mapu</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="424"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="433"/>
         <source>VCMI maps (*.vmap);</source>
         <translation>Mapy VCMI (*.vmap);</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="424"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="433"/>
         <source>HoMM3 maps (*.h3m);</source>
         <translation>Mapy HoMM3 (*.h3m);</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="460"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="474"/>
         <source>Source scenario</source>
         <translation>Výchozí scénář</translation>
     </message>
     <message>
-        <location filename="../campaigneditor/scenarioproperties.cpp" line="470"/>
+        <location filename="../campaigneditor/scenarioproperties.cpp" line="484"/>
         <source>Hero</source>
         <translation>Hrdina</translation>
     </message>
@@ -3427,7 +3501,7 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     <name>TemplateEditor</name>
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="14"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="637"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="661"/>
         <source>VCMI Template Editor</source>
         <translation>Editor šablon VCMI</translation>
     </message>
@@ -3459,7 +3533,7 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="137"/>
         <location filename="../templateeditor/templateeditor.ui" line="1325"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="265"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="281"/>
         <source>Add</source>
         <translation>Přidat</translation>
     </message>
@@ -3537,14 +3611,14 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     </message>
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="478"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="403"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="416"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="419"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="432"/>
         <source>None</source>
         <translation>Žádné</translation>
     </message>
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="485"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="419"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
         <source>Normal</source>
         <translation>Normální</translation>
     </message>
@@ -3606,7 +3680,7 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     </message>
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="689"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
@@ -3654,7 +3728,7 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
         <location filename="../templateeditor/templateeditor.ui" line="785"/>
         <location filename="../templateeditor/templateeditor.ui" line="1229"/>
         <location filename="../templateeditor/templateeditor.ui" line="1235"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="378"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="394"/>
         <source>Treasure</source>
         <translation>Poklad</translation>
     </message>
@@ -3801,7 +3875,7 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
     </message>
     <message>
         <location filename="../templateeditor/templateeditor.ui" line="1389"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="466"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="484"/>
         <source>Del</source>
         <translation>Del</translation>
     </message>
@@ -3856,149 +3930,149 @@ Přidejte ji do povinných modifikací mapy v nabídce Mapa-&gt;Obecné nastaven
         <translation>Ctrl+Shift+=</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="236"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="252"/>
         <source>Min</source>
         <translation>Min</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="236"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="252"/>
         <source>Max</source>
         <translation>Max</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="236"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="252"/>
         <source>Action</source>
         <translation>Akce</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="254"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="467"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="270"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="485"/>
         <source>Delete</source>
         <translation>Smazat</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="293"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="309"/>
         <source>ID: %1</source>
         <translation>ID: %1</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="295"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="311"/>
         <source>Max treasure: %1</source>
         <translation>Max. poklad: %1</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="376"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="392"/>
         <source>Player start</source>
         <translation>Start hráče</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="377"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="393"/>
         <source>CPU start</source>
         <translation>Start CPU</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="379"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="395"/>
         <source>Junction</source>
         <translation>Křižovatka</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="380"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="396"/>
         <source>Water</source>
         <translation>Voda</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="381"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="397"/>
         <source>Sealed</source>
         <translation>Zapečetěno</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="408"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="424"/>
         <source>Automatic</source>
         <translation>Automaticky</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="409"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="425"/>
         <source>Surface</source>
         <translation>Povrch</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="410"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="426"/>
         <source>Underground</source>
         <translation>Podzemí</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="417"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="454"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="433"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="472"/>
         <source>Random</source>
         <translation>Náhodně</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="418"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="434"/>
         <source>Weak</source>
         <translation>Slabá</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="420"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="436"/>
         <source>Strong</source>
         <translation>Silná</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
         <source>Zone A</source>
         <translation>Zóna A</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
         <source>Zone B</source>
         <translation>Zóna B</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
         <source>Guard</source>
         <translation>Stráž</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="435"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
         <source>Road</source>
         <translation>Cesta</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="449"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="467"/>
         <source>Guarded</source>
         <translation>Střeženo</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="450"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="468"/>
         <source>Fictive</source>
         <translation>Fiktivní</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="451"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="469"/>
         <source>Repulsive</source>
         <translation>Odpudivé</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="452"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="470"/>
         <source>Wide</source>
         <translation>Široké</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="453"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="471"/>
         <source>Force portal</source>
         <translation>Vynutit portál</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="455"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="473"/>
         <source>Yes</source>
         <translation>Ano</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="456"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="474"/>
         <source>No</source>
         <translation>Ne</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="565"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="589"/>
         <source>Zone A: %1
 Zone B: %2
 Guard: %3</source>
@@ -4007,99 +4081,113 @@ Zóna B: %2
 Stráž: %3</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="625"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="649"/>
         <source>Confirmation</source>
         <translation>Potvrzení</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="625"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="649"/>
         <source>Unsaved changes will be lost, are you sure?</source>
         <translation>Neuložené změny budou ztraceny, jste si jisti?</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="649"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="673"/>
         <source>Validation failed!</source>
         <translation>Ověření selhalo!</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="654"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="678"/>
         <source>No player range defined.</source>
         <translation>Není definován rozsah hráčů.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="661"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="685"/>
         <source>Invalid range for players.</source>
         <translation>Neplatný rozsah hráčů.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="669"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="693"/>
         <source>Invalid range for human players.</source>
         <translation>Rozsah lidských hráčů je neplatný.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="684"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="708"/>
         <source>Connection references non-existing zone(s): %1 - %2</source>
         <translation>Spojení odkazuje na neexistující zóny: %1 – %2</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="696"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="720"/>
         <source>Zone %1 has no connections.</source>
         <translation>Zóna %1 nemá žádná spojení.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="720"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="744"/>
         <source>Player %1 must have exactly one player start zone (found %2).</source>
         <translation>Hráč %1 musí mít jen jednu startovní zónu - nalezeno %2.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="757"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="782"/>
         <source>Open template</source>
         <translation>Otevřít šablonu</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="759"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="784"/>
         <source>VCMI templates(*.json)</source>
         <translation>Šablony VCMI (*.json)</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="775"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="802"/>
         <source>Save template</source>
         <translation>Uložit šablonu</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="775"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="803"/>
         <source>VCMI templates (*.json)</source>
         <translation>Šablony VCMI (*.json)</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="891"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="932"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="940"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="981"/>
         <source>Enter Name</source>
         <translation>Zadejte jméno</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="891"/>
-        <location filename="../templateeditor/templateeditor.cpp" line="932"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="940"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="981"/>
         <source>Name:</source>
         <translation>Jméno:</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="898"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="947"/>
         <source>Already existing!</source>
         <translation>Již existuje!</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="898"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="947"/>
         <source>A template with this name is already existing.</source>
         <translation>Šablona s tímto názvem již existuje.</translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="915"/>
-        <source>To few templates!</source>
-        <translation>Příliš málo šablon!</translation>
+        <location filename="../templateeditor/templateeditor.cpp" line="964"/>
+        <source>Too few templates!</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../templateeditor/templateeditor.cpp" line="915"/>
+        <location filename="../templateeditor/templateeditor.cpp" line="1214"/>
+        <source>Too few zones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../templateeditor/templateeditor.cpp" line="1214"/>
+        <source>Create at least two zones before adding a connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To few templates!</source>
+        <translation type="vanished">Příliš málo šablon!</translation>
+    </message>
+    <message>
+        <location filename="../templateeditor/templateeditor.cpp" line="964"/>
         <source>At least one template should remain after removing.</source>
         <translation>Po odebrání by měla zůstat alespoň jedna šablona.</translation>
     </message>
@@ -4361,47 +4449,47 @@ Stráž: %3</translation>
         <translation>Nápovědy k městům</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="24"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="23"/>
         <source>Town hint Selector</source>
         <translation>Výběr nápověd k městům</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="30"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="29"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="30"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="29"/>
         <source>Value</source>
         <translation>Hodnota</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="30"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="29"/>
         <source>Action</source>
         <translation>Akce</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="33"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="32"/>
         <source>Like Zone</source>
         <translation>Jako zóna</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="34"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="33"/>
         <source>Not like zone (comma separated)</source>
         <translation>Ne jako zóna (oddělené čárkami)</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="35"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="34"/>
         <source>Related to zone terrain</source>
         <translation>Související s terénem zóny</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="60"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="59"/>
         <source>Delete</source>
         <translation>Smazat</translation>
     </message>
     <message>
-        <location filename="../templateeditor/townhintselector.cpp" line="99"/>
+        <location filename="../templateeditor/townhintselector.cpp" line="98"/>
         <source>Add</source>
         <translation>Přidat</translation>
     </message>
@@ -4515,37 +4603,37 @@ Stráž: %3</translation>
         <translation>Vybrat poklady</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="26"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="25"/>
         <source>Treasure Selector</source>
         <translation>Výběr pokladů</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="32"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="31"/>
         <source>Min</source>
         <translation>Min</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="32"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="31"/>
         <source>Max</source>
         <translation>Max</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="32"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="31"/>
         <source>Density</source>
         <translation>Hustota</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="32"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="31"/>
         <source>Action</source>
         <translation>Akce</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="50"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="49"/>
         <source>Delete</source>
         <translation>Smazat</translation>
     </message>
     <message>
-        <location filename="../templateeditor/treasureselector.cpp" line="65"/>
+        <location filename="../templateeditor/treasureselector.cpp" line="64"/>
         <source>Add</source>
         <translation>Přidat</translation>
     </message>
@@ -4553,27 +4641,27 @@ Stráž: %3</translation>
 <context>
     <name>Ts</name>
     <message>
-        <location filename="../templateeditor/entitiesselector.cpp" line="75"/>
+        <location filename="../templateeditor/entitiesselector.cpp" line="76"/>
         <source>Terrain Selector</source>
         <translation>Výběr terénu</translation>
     </message>
     <message>
-        <location filename="../templateeditor/entitiesselector.cpp" line="79"/>
+        <location filename="../templateeditor/entitiesselector.cpp" line="80"/>
         <source>Spell Selector</source>
         <translation>Výběr kouzel</translation>
     </message>
     <message>
-        <location filename="../templateeditor/entitiesselector.cpp" line="83"/>
+        <location filename="../templateeditor/entitiesselector.cpp" line="84"/>
         <source>Artifact Selector</source>
         <translation>Výběr artefaktů</translation>
     </message>
     <message>
-        <location filename="../templateeditor/entitiesselector.cpp" line="87"/>
+        <location filename="../templateeditor/entitiesselector.cpp" line="88"/>
         <source>Skill Selector</source>
         <translation>Výběr dovedností</translation>
     </message>
     <message>
-        <location filename="../templateeditor/entitiesselector.cpp" line="91"/>
+        <location filename="../templateeditor/entitiesselector.cpp" line="92"/>
         <source>Hero Type Selector</source>
         <translation>Výběr typu hrdiny</translation>
     </message>
@@ -4956,47 +5044,47 @@ Stráž: %3</translation>
         <translation>Vlastní semínko</translation>
     </message>
     <message>
-        <location filename="../windownewmap.ui" line="1042"/>
+        <location filename="../windownewmap.ui" line="1048"/>
         <source>Generate random map</source>
         <translation>Vygenerovat náhodnou mapu</translation>
     </message>
     <message>
-        <location filename="../windownewmap.ui" line="1070"/>
+        <location filename="../windownewmap.ui" line="1076"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../windownewmap.ui" line="1089"/>
+        <location filename="../windownewmap.ui" line="1095"/>
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="294"/>
+        <location filename="../windownewmap.cpp" line="297"/>
         <source>No template</source>
         <translation>Bez šablony</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="294"/>
+        <location filename="../windownewmap.cpp" line="297"/>
         <source>No template for parameters specified. Random map cannot be generated.</source>
         <translation>Žádná šablona pro vybrané parametry. Náhodná mapa nemůže být vygenerována.</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="316"/>
+        <location filename="../windownewmap.cpp" line="319"/>
         <source>RMG failure</source>
         <translation>Chyba RMG</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="343"/>
+        <location filename="../windownewmap.cpp" line="346"/>
         <source>Multilevel support</source>
         <translation>Podpora více úrovní</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="343"/>
+        <location filename="../windownewmap.cpp" line="346"/>
         <source>Multilevel support is highly experimental yet. Expect issues.</source>
         <translation>Podpora více úrovní je zatím velmi experimentální. Očekávejte problémy.</translation>
     </message>
     <message>
-        <location filename="../windownewmap.cpp" line="464"/>
+        <location filename="../windownewmap.cpp" line="467"/>
         <source>[default]</source>
         <translation>[výchozí]</translation>
     </message>
@@ -5004,27 +5092,27 @@ Stráž: %3</translation>
 <context>
     <name>main</name>
     <message>
-        <location filename="../mainwindow.cpp" line="109"/>
+        <location filename="../mainwindow.cpp" line="195"/>
         <source>Filepath of the map to open.</source>
         <translation>Cesta k souboru mapy, kterou chcete otevřít.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="112"/>
+        <location filename="../mainwindow.cpp" line="198"/>
         <source>Extract original H3 archives into a separate folder.</source>
         <translation>Rozbalit originální archivy H3 do zvláštní složky.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="113"/>
+        <location filename="../mainwindow.cpp" line="199"/>
         <source>From an extracted archive, it Splits TwCrPort, CPRSMALL, FlagPort, ITPA, ITPt, Un32 and Un44 into individual PNG&apos;s.</source>
         <translation>Z rozbaleného archivu rozdělí TwCrPort, CPRSMALL, FlagPort, ITPA, ITPt, Un32 a Un44 do jednotlivých PNG.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="114"/>
+        <location filename="../mainwindow.cpp" line="200"/>
         <source>From an extracted archive, Converts single Images (found in Images folder) from .pcx to png.</source>
         <translation>Z rozbaleného archivu převede jednoduché obrázky (nalezené ve složce Images) z .pcx do png.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="115"/>
+        <location filename="../mainwindow.cpp" line="201"/>
         <source>Delete original files, for the ones split / converted.</source>
         <translation>Odstranit původní soubory pro ty, které byly rozděleny nebo převedeny.</translation>
     </message>
