@@ -221,7 +221,7 @@ jobs:
       if: "${{ matrix.conan_prebuilts != '' }}"
       run: |
         pipx install conan
-        source '${{github.workspace}}/CI/install_conan_dependencies.sh' '${{matrix.conan_prebuilts}}'
+        source '${{github.workspace}}/CI/install_conan_dependencies.sh' '${{matrix.conan_prebuilts}}' {{github.token}}
 
     - name: Setup MSVC Developer Command Prompt
       if: ${{ startsWith(matrix.platform, 'msvc') }}
