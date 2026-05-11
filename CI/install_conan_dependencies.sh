@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -x
 
 RELEASE_TAG="2026-03-11"
 FILENAME="$1.txz"
@@ -11,5 +12,6 @@ gh run download 25542804987 \
 #downloadedFile="$RUNNER_TEMP/1.zip"
 #curl -Lo "$downloadedFile" "https://github.com/vcmi/vcmi-dependencies/actions/runs/25542804987/artifacts/6874653030" -H "Authorization: Bearer $2"
 cd "$RUNNER_TEMP"
+ls -l
 unzip -q *.zip
 conan cache restore *.txz
