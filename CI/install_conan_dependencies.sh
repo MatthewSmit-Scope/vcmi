@@ -6,7 +6,7 @@ FILENAME="$1.txz"
 DOWNLOAD_URL="https://github.com/vcmi/vcmi-dependencies/releases/download/$RELEASE_TAG/$FILENAME"
 
 cd dependencies
-git fetch
+git fetch origin fdroid-test
 git switch fdroid-test
 
 gh run download 25542804987 \
