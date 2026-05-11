@@ -7,7 +7,7 @@ DOWNLOAD_URL="https://github.com/vcmi/vcmi-dependencies/releases/download/$RELEA
 
 cd dependencies
 git fetch origin fdroid-test
-git switch fdroid-test
+git switch FETCH_HEAD
 
 gh run download 25542804987 \
             --repo vcmi/vcmi-dependencies \
