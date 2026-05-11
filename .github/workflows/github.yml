@@ -177,6 +177,8 @@ jobs:
     - name: Prepare CI
       if: "${{ matrix.before_install != '' }}"
       run: source '${{ github.workspace }}/CI/before_install/${{ matrix.before_install }}'
+      env:
+        GH_TOKEN: ${{ github.token }}
 
     - name: Configure codesigning for macOS
       if: ${{ startsWith(matrix.platform, 'mac-') }}
