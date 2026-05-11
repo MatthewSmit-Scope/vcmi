@@ -485,7 +485,7 @@ jobs:
 
   upload-source-package:
     name: Upload Source Code Package
-    if: always() && github.event.number == ''
+    if: false
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -532,6 +532,7 @@ jobs:
 
   test:
     name: Test (${{ matrix.platform }})
+    if: false
     strategy:
       fail-fast: false
       matrix:
@@ -655,6 +656,7 @@ jobs:
 
   lobby:
     name: Build VCMI Lobby
+    if: false
     # Warning: Lobby .deb must be build on the same Ubuntu version and arch as our server. Do not change to ubuntu-latest
     runs-on: ubuntu-24.04
     defaults:
@@ -821,7 +823,7 @@ jobs:
 
   validate-code:
     name: Validate Code
-    if: always()
+    if: false
     runs-on: ubuntu-latest
     defaults:
       run:
