@@ -77,6 +77,8 @@ class DLL_LINKAGE CGHeroInstance : public CArmedInstance, public IBoatGenerator,
 	IGameInfoCallback * getCallback() const final { return cb; }
 
 public:
+	bool isHuman() const;
+
 	//////////////////////////////////////////////////////////////////////////
 	//format:   123
 	//          8 4

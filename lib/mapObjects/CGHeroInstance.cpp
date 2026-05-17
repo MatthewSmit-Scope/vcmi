@@ -54,6 +54,7 @@
 #include "../constants/StringConstants.h"
 #include "../battle/Unit.h"
 #include "CConfigHandler.h"
+#include "CPlayerState.h"
 
 VCMI_LIB_NAMESPACE_BEGIN
 
@@ -968,6 +969,12 @@ bool CGHeroInstance::canLearnSpell(const spells::Spell * spell, bool allowBanned
 	return true;
 }
 
+bool CGHeroInstance::isHuman() const
+{
+	auto state = getCallback()->getPlayerState(this->getOwner());
+	return state && state->isHuman();
+}
+
 /**
  * Calculates what creatures and how many to be raised from a battle.
  * @param battleResult The results of the battle.
@@ -987,6 +994,9 @@ CStackBasicDescriptor CGHeroInstance::calculateNecromancy (const BattleResult &b
 	int raisedUnitsPercentage = std::clamp(valOfBonuses(BonusType::UNDEAD_RAISE_PERCENTAGE), 0, 100);
 	if(raisedUnitsPercentage == 0 && !hasRaisedUnitsBonus)
 		return CStackBasicDescriptor();
+	
+	if (this->isHuman()) 
+		raisedUnitsPercentage *= 2;
 
 	const std::map<CreatureID,si32> &casualties = battleResult.casualties[CBattleInfoEssentials::otherSide(battleResult.winner)];
 	if(casualties.empty())
@@ -1045,7 +1055,7 @@ CStackBasicDescriptor CGHeroInstance::calculateNecromancy (const BattleResult &b
 		const CCreature * c = casualty.first.toCreature();
 		double raisedFromCasualty = std::min(c->getMaxHealth() / raisedUnitHealth, 1.0) * casualty.second * raisedUnitsPercentage;
 
-		if (bestCreature != selectedCreature)
+		if (bestCreature != selectedCreature && !this->isHuman())
 			raisedUnits += raisedFromCasualty * 2 / 3 / 100;
 		else
 			raisedUnits += raisedFromCasualty / 100;

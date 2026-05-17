@@ -351,7 +351,7 @@ void CGameHandler::giveExperience(const CGHeroInstance * hero, TExpType amountTo
 	TExpType maxExp = LIBRARY->heroh->reqExp(LIBRARY->heroh->maxSupportedLevel());
 	TExpType currHeroExp = hero->exp;
 
-	if (gameState().getMap().levelLimit != 0)
+	if (gameState().getMap().levelLimit != 0 && !hero->isHuman())
 		maxExp = LIBRARY->heroh->reqExp(gameState().getMap().levelLimit);
 
 	TExpType canGainHeroExp = 0;
@@ -2464,6 +2464,10 @@ bool CGameHandler::recruitCreatures(ObjectInstanceID objid, ObjectInstanceID dst
 
 	//recruit
 	TResources cost = (c->getFullRecruitCost() * cram);
+	auto state = gameInfo().getPlayerState(player);
+	if (state && state->isHuman()) {
+		cost /= 2;
+	}
 	giveResources(army->tempOwner, -cost);
 	statistics->getPlayerAccumulator(army->tempOwner).spentResourcesForArmy += cost;
 
