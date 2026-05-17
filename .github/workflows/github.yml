@@ -537,29 +537,3 @@ jobs:
       with:
         name: partial-json-${{ matrix.platform }}-installer
         path: .summary/installer-${{ matrix.platform }}.json
-
-  final-summary:
-    name: Build report
-    if: always()
-    needs: [build, windows-installer, validate-code, test, upload-source-package]
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      actions: write                   # Partial JSON artifacts can't be deleted in PRs
-    steps:
-      - name: Checkout (for script path)
-        uses: actions/checkout@v6
-
-      - name: Download all partial JSON artifacts
-        continue-on-error: true
-        uses: actions/download-artifact@v7
-        with:
-          pattern: partial-json-*
-          merge-multiple: true
-          path: partials
-
-      - name: Run final summary
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 CI/final_summary.py
