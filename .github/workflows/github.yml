@@ -32,6 +32,15 @@ jobs:
             conan_prebuilts: dependencies-windows-x64
             conan_options: -s "&:build_type=RelWithDebInfo" -c tools.env.virtualenv:powershell=pwsh -o "&:target_pre_windows10=True"
             artifact_platform: x64
+          - platform: linux-appimage-x64
+            os: ubuntu-24.04
+            upload: 1
+            preset: linux-gcc-release-appimage
+            conan_profile: linux-x64
+            conan_prebuilts: dependencies-linux-x64
+            before_install: linux_appimage.sh
+            extension: AppImage
+            artifact_platform: x86_64
 
     runs-on: ${{ matrix.os }}
 
