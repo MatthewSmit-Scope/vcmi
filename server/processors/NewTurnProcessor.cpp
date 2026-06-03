@@ -227,24 +227,13 @@ ResourceSet NewTurnProcessor::generatePlayerIncome(PlayerColor playerID, bool ne
 
 	if(state.isHuman())
 	{
-		income[EGameResID::GOLD] += 1000;
-		income[EGameResID::WOOD] += 1;
-		income[EGameResID::MERCURY] += 1;
-		income[EGameResID::ORE] += 1;
-		income[EGameResID::SULFUR] += 1;
-		income[EGameResID::CRYSTAL] += 1;
-		income[EGameResID::GEMS] += 1;
-
-		if(newWeek)
-		{
-			income[EGameResID::GOLD] += state.resources[EGameResID::GOLD] / 10;
-			income[EGameResID::WOOD] += state.resources[EGameResID::WOOD] / 10;
-			income[EGameResID::MERCURY] += state.resources[EGameResID::MERCURY] / 10;
-			income[EGameResID::ORE] += state.resources[EGameResID::ORE] / 10;
-			income[EGameResID::SULFUR] += state.resources[EGameResID::SULFUR] / 10;
-			income[EGameResID::CRYSTAL] += state.resources[EGameResID::CRYSTAL] / 10;
-			income[EGameResID::GEMS] += state.resources[EGameResID::GEMS] / 10;
-		}
+		income[EGameResID::GOLD] += std::max(1000, state.resources[EGameResID::GOLD] / 10);
+		income[EGameResID::WOOD] += std::max(1, state.resources[EGameResID::WOOD] / 10);
+		income[EGameResID::MERCURY] += std::max(1, state.resources[EGameResID::MERCURY] / 10);
+		income[EGameResID::ORE] += std::max(1, state.resources[EGameResID::ORE] / 10);
+		income[EGameResID::SULFUR] += std::max(1, state.resources[EGameResID::SULFUR] / 10);
+		income[EGameResID::CRYSTAL] += std::max(1, state.resources[EGameResID::CRYSTAL] / 10);
+		income[EGameResID::GEMS] += std::max(1, state.resources[EGameResID::GEMS] / 10);
 	}
 
 	for(auto & k : LIBRARY->resourceTypeHandler->getAllObjects())
